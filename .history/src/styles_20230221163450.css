@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alien Encounters solid", sans-serif;
+}
+
+.rootContainer {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+/* main page container */
+.background {
+  width: 100%;
+
+  z-index: -1;
+}
+.hero {
+  position: absolute;
+  top: 0;
+}
+
+/* zappos photos*/
+.zappoContainer {
+  position: absolute;
+}
+.zappoContainer img {
+  transition: 300ms;
+  width: 4.7vw;
+}
+.zappoContainer img:hover {
+  transform: scale(1.22);
+  transition-duration: 300ms;
+  z-index: 1;
+}
+
+.Pineapple {
+  position: absolute;
+  left: 5.17vw;
+  top: 7.22vw;
+}
+.Cola {
+  position: absolute;
+  left: 8.3vw;
+  top: 9.31vw;
+}
+.Strawberry {
+  position: absolute;
+  left: 11.44vw;
+  top: 11.4vw;
+}
+.Watermelon {
+  position: absolute;
+  left: 14.58vw;
+  top: 13.49vw;
+}
+.Raspberry {
+  position: absolute;
+  left: 17.72vw;
+  top: 15.58vw;
+}
+.Grape {
+  position: absolute;
+  left: 20.86vw;
+  top: 17.67vw;
+}
+/* main heading text */
+
+.mainText {
+  position: absolute;
+  top: 18.1vw;
+  left: 59vw;
+  text-align: center;
+  width: 24.8vw;
+}
+
+.mainText h1 {
+  font-size: 4.2vw;
+  color: white;
+  font-family: "Alien Encounters", sans-serif;
+}
+
+.mainText h2 {
+  padding: 1vw 0px 2.4vw;
+  color: #e4ddfa;
+  font-size: 0.8vw;
+}
+
+/* flavour text */
+
+.flavourText h3 {
+  font-family: "Alien Encounters", sans-serif;
+  font-size: 1.6vw;
+  color: #e55fe7;
+}
+.flavourText h4 {
+  padding: 1.1vw 1.3vw;
+  color: #e55fe7;
+
+  font-size: 1vw;
+}
+
+.content {
+  padding-top: 100vh;
+}
