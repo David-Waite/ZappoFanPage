@@ -86,7 +86,7 @@
 .mainText h1 {
   font-size: 4.2vw;
   color: white;
-  font-family: "Alien Encounters Solid", sans-serif;
+  font-family: "Alien Encounters", sans-serif;
 }
 
 .mainText h2 {
@@ -98,7 +98,7 @@
 /* flavour text */
 
 .flavourText h3 {
-  font-family: "Alien Encounters Solid", sans-serif;
+  font-family: "Alien Encounters", sans-serif;
   font-size: 1.6vw;
   color: #e55fe7;
 }
