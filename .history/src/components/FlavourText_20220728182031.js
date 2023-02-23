@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import sanitizeHtml from "sanitize-html";
 
 export default function FlavourText(props) {

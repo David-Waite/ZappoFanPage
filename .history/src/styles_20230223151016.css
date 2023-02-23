@@ -6,6 +6,14 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Alien Encounters";
+  src: url("./assets/fonts/AlienEncounters.woff2") format("woff2"),
+    url("./assets/fonts/AlienEncounters.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 * {
   margin: 0;
@@ -78,7 +86,7 @@
 .mainText {
   position: absolute;
   top: 18.1vw;
-  left: 59.5vw;
+  left: 59vw;
   text-align: center;
   width: 24.8vw;
 }
@@ -86,6 +94,7 @@
 .mainText h1 {
   font-size: 4.2vw;
   color: white;
+  font-family: "Alien Encounters Solid", sans-serif;
 }
 
 .mainText h2 {
@@ -97,6 +106,7 @@
 /* flavour text */
 
 .flavourText h3 {
+  font-family: "Alien Encounters Solid", sans-serif;
   font-size: 1.6vw;
   color: #e55fe7;
 }

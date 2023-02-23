@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import MainText from "./MainText";
 import data from "../data";
 import Zappo from "./Zappo";
