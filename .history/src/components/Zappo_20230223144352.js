@@ -6,7 +6,7 @@ export default function Zappo(props) {
       <img
         onMouseOver={props.displayText}
         className={props.name}
-        src={require(`../assets/images/${props.image}`)}
+        src={require(`..assets/images/${props.image}`)}
         alt="watermelonZappo"
       />
     </div>

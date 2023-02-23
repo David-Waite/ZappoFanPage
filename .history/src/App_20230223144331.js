@@ -1,4 +1,3 @@
-import "../src/assets/fonts/stylesheet.css";
 import React, { useEffect, useState, useRef } from "react";
 import Hero from "./components/Hero";
 import Content from "./components/Content";
