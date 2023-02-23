@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Alien Encounters Solid";
-  src: local("AlienEncountersSolid"),
-    url("./assets/fonts/Alien-Encounters-Solid-Bold.ttf") format("truetype");
+  src: local("GoldmanBold"),
+    url("./fonts/Goldman/Goldman-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "AlienEncountersSolid", sans-serif;
+  font-family: "Alien Encounters Solid", sans-serif;
 }
 
 .rootContainer {
